@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+}
+.mobile{
+    width: 400px;
+    height: 800px;
+    background-color: white;
+    margin: auto;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(1, 1, 1);
+    font-size: 20px;
+    border-radius: 40px;
+    position: relative;
+    cursor: pointer;
+    
+    
+}
+.btn:hover{
+    
+    color: rgb(79, 137, 217);
+    
+}
